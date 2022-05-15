@@ -12,13 +12,13 @@ int main() {
     cin >> nome[i];
   }
   
-  cin >>n;
+  cin >> n;
   
-  int a=ricerca(nome, n);
-  if (a!=-1) {
-    cout << a;
+  int c=ricerca(nome,n);
+  if (c!=-1) {
+    cout << c;
   } else {
-    cout << "non presente" <<endl,
+    cout << "non presente" << endl;
   }
   
   return 0;
