@@ -14,9 +14,9 @@ int main() {
   
   cin >>n;
   
-  int c=ricerca(nome, n);
-  if (c!=-1) {
-    cout << c;
+  int a=ricerca(nome, n);
+  if (a!=-1) {
+    cout << a;
   } else {
     cout << "non presente" <<endl,
   }
